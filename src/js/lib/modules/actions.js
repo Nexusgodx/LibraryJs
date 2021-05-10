@@ -71,7 +71,6 @@ $.prototype.find = function(selector) {
 $.prototype.closest = function(selector) {
     let counter = 0;
 
-
     for (let i = 0; i < this.length; i++) {
         if (this[i].closest(selector) == null) {
             return this;

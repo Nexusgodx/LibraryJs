@@ -4,5 +4,8 @@ import './modules/classes';
 import './modules/handlers';
 import './modules/attributes';
 import './modules/actions';
+import './modules/effects';
+import './components/dropdonw';
+import './components/modal';
 
 export default $;

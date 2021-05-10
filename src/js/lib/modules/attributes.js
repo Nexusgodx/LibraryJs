@@ -9,7 +9,7 @@ $.prototype.addAttr = function(attributeName, attributeValue = '') {
     }
 
     return this;
-}
+};
 
 
 $.prototype.getAttr = function(attributeName, attributeValue = '') {
@@ -21,4 +21,4 @@ $.prototype.getAttr = function(attributeName, attributeValue = '') {
     }
 
     return this;
-}
+};
