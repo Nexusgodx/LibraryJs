@@ -10,11 +10,9 @@ $.prototype.animateOverTime = function(dur, cb, fin) {
 
         let timeElapsed = time - timeStart;
         let complection = Math.min(timeElapsed / dur, 1);
-        console.log(complection);
         cb(complection);
 
         if (timeElapsed < dur) {
-            // console.log(time);
             requestAnimationFrame(_animateOverTime);
         } else {
             if (typeof(fin) === 'function') {

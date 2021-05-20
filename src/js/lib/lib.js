@@ -7,5 +7,8 @@ import './modules/actions';
 import './modules/effects';
 import './components/dropdonw';
 import './components/modal';
+import './components/tab';
+import './components/accordion';
+import './components/carousel';
 
 export default $;
