@@ -88,7 +88,6 @@ $.prototype.carousel = function(autoSwitching, time, speed) {
     }
 };
 
-// $('.carousel').carousel();
 
 $.prototype.createSlide = function({src = [], autoSwitching = false, time = 3000, speed = '0.5s'}) {
     for (let i = 0; i < this.length; i++) {
